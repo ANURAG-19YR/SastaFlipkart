@@ -2,7 +2,7 @@
     /* display: grid;
     grid-template-columns: auto auto auto; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .grid-items img {
@@ -29,9 +29,8 @@
 /* -------banner part---- */
 
 .grid-container-banner {
-     display: grid;
-    grid-template-columns: auto auto auto; 
-   
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .grid-items-banner img {
@@ -42,7 +41,7 @@
     border-radius: 5px;
 
     margin: 10px 5px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .grid-items-banner img:hover {
